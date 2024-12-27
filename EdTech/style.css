@@ -1,0 +1,1169 @@
+html {
+  height: 100%;
+ width:100%;
+}
+
+*{
+  
+
+     font-family: "Edu TAS Beginner", cursive;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+      padding:0;
+       margin:0;
+      box-sizing: content-box;
+  
+}
+
+
+#header{
+  background:linear-gradient(to right,#D7F1FF,#078CDA);
+  height:35vh;
+}
+.header-container{
+  display:flex;
+  justify-content:between;
+  width:150%;
+  flex-wrap:wrap;
+}
+
+.left-items img{
+  width:50%;
+  height:50%;
+  mix-blend-mode: multiply;
+}
+
+.left-items{
+  position:relative;
+  bottom:20px;
+}
+
+.middle-items{
+  margin-top:65px;
+  position:relative;
+right:150px;
+
+}
+
+
+
+
+.input-elm{
+  width:490px;
+  height:35px;
+  border:2px solid black;
+  border-radius:1px;
+}
+
+.fa-search{
+  color:white;
+}
+
+.middle-items i{
+  position:relative;
+  top:7px;
+  font-size:35px;
+  font-weight:2;
+}
+
+.Sign-up-button a{
+  text-decoration:none;
+  color:white;
+  background:#061158;
+  border:11px solid #061158;
+  font-size:18px;
+  font-weight:bold;
+  position:relative;
+  bottom:85px;
+  left:210px;
+}
+
+.right-items{
+  position:relative;
+  right:10%;
+  margin-top:100px;
+}
+.navigation a{
+  color:white;
+  text-decoration:none;
+  position:relative;
+  font-weight:bold;
+  font-size:22px;
+  bottom:90px;
+  right:80%;
+  margin-right:10px;
+
+}
+
+#stem{
+  min-height:500px;
+  min-width:100%;
+  position:relative;
+  bottom:50px;
+  background:linear-gradient(to right,#8dd5fc,#5CC2C6, rgba(0,0,0,0.1)), url("images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+
+.container{
+  display:flex;
+  justify-content:space-between;  
+  margin-top:50px;
+}
+
+#stem h2{
+  text-align:center;
+  font-size:40px;
+  color:white;
+  font-weight:bold;
+  background:linear-gradient(to right,#FF295B#5CC2C6);
+  margin-top:50px;
+}
+
+.stem_img img{
+  height:90%;
+  width:350px;
+  border-radius:30px;
+  margin-top:45px;
+  margin-right:10px;
+}
+
+.stem_text{
+  margin:auto;
+}
+
+.stem_text p{
+  font-size:30px;
+  margin-top:50px;
+  font-weight:bold;
+  color:white;
+}
+
+#options{
+  position:relative;
+  bottom:50px;
+  background:linear-gradient(to right,#C8C6FF,#A1FF97);
+  height:650px;
+
+}
+
+.options-container{
+  display:flex;
+  justify-content:space-between;
+  margin-right:10px;
+  text-align:center;
+  position:relative;
+  top:30px;
+
+
+}
+
+
+.coding-card{
+  background:linear-gradient(to bottom,#e5ebf5,#00008b);
+  border-radius:20px;
+  color:#F2F3F5;
+  width:30%;
+height:500px;
+  transition: 0.5s;
+}
+
+.coding-card:hover{
+  transform:translateY(-10px);
+}
+
+.maths-card{
+  background: linear-gradient(to bottom,#e9e8f7,#6666FF);
+  border-radius:20px;
+  color:#F2F3F5;
+  width:30%;
+  height:500px;
+  transition: 0.5s ease-in-out;
+}
+
+.maths-card:hover{
+  transform:translateY(-10px);
+}
+
+.S-card{
+background: linear-gradient(to bottom,#EAAEFF,#CC3FFF);
+  border-radius:20px;
+color:#F2F3F5;
+width:30%;
+height:500px;
+  transition: 0.5s ease-in-out;
+}
+
+.S-card:hover{
+  transform:translateY(-10px);
+}
+
+
+.coding-heading h2{
+  font-size:30px;
+  font-weight:bolder;
+  color:#00008b;
+ 
+}
+
+.maths-heading h2{
+  font-size:30px;
+  font-weight:bolder;
+  color:#6666FF;
+ 
+}
+
+.S-heading h2{
+  font-size:30px;
+  font-weight:bolder;
+  color:white
+}
+
+.coding-info{
+  margin-top:15px;
+}
+
+.coding-info li{
+  font-size:19px;
+  line-height:20px;
+  position:relative;
+  top:5px;
+   list-style: none;
+}
+
+.coding-info p{
+  font-size:24px;
+  font-weight:bold;
+}
+
+.maths-info{
+  margin-top:15px;
+}
+
+.maths-info li{
+  font-size:19px;
+  line-height:20px;
+  position:relative;
+  top:5px;
+   list-style: none;
+}
+
+.maths-info p{
+  font-size:24px;
+  font-weight:bold;
+}
+
+.S-info{
+  margin-top:15px;
+}
+
+.S-info li{
+  font-size:19px;
+  line-height:20px;
+  position:relative;
+  top:5px;
+   list-style: none;
+}
+
+.S-info p{
+  font-size:24px;
+  font-weight:bold;
+}
+
+.join-button{
+  position:relative;
+  top:50px;
+}
+
+.coding-img img{
+  width:200px;
+  height:200px;
+  margin-top:10px;
+   mix-blend-mode: multiply
+}
+
+.maths-img img{
+  width:200px;
+  height:200px;
+  margin-top:10px;
+   mix-blend-mode: multiply
+}
+
+.S-img img{
+  width:200px;
+  height:200px;
+  margin-top:10px;
+   mix-blend-mode: multiply
+}
+
+
+
+.join-button a{
+  text-decoration:none;
+  border-radius: 10px;
+  background:#C5FCD2;
+  border: 10px solid  #C1FFD0;
+  font-size:20px;
+  font-weight:bold;
+}
+
+
+
+.options-header h1{
+  font-size:50px;
+  text-align:center;
+  font-weight:bold;
+  color:#a001da;
+
+}
+
+
+#fav-courses{
+  position:relative;
+  bottom:50px;
+  background:linear-gradient(rgba(0,0,0,0.1),#Ffd700), url("images/goldstar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fav-courses-heading h1{
+  text-align:center;
+  font-size:50px;
+  font-weight:bold;
+  color:#6a490b;
+}
+
+.fav-courses-container{
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  margin-top:50px;
+  margin-right:10px;
+  font-size:20px;
+
+}
+
+.fav-courses-container a{
+  text-decoration:none;
+
+}
+
+.Web-Development-Card{
+  width:300px;
+  height:90%;
+  background: linear-gradient(to right,#D2E3FF,#5879B3);
+  transition: 0.5s ease-in-out;
+}
+
+.Web-Development-Card:hover{
+  transform:translateY(-12px);
+}
+
+.Python-Card{
+   width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition:0.5s ease-in-out;
+}
+
+.Python-Card:hover{
+  transform:translateY(-12px);
+}
+
+
+.Physics-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition: 0.5s ease-in-out;
+}
+
+.Physics-Card:hover{
+  transform:translateY(-12px);
+}
+
+.Maths-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+   transition: 0.5s ease-in-out;
+}
+
+.Maths-Card:hover{
+  transform:translateY(-12px);
+}
+
+
+.Web-Development-img img{
+  width:300px;
+  height:250px;
+}
+
+.Python-img img{
+  width:300px;
+  height:250px;
+}
+
+.Physics-img img{
+  width:300px;
+  height:250px;
+}
+
+.Maths-img img{
+  width:300px;
+  height:250px;
+}
+
+.subject{
+  text-align:left;
+}
+.subject p{
+  color:black;
+  margin-top:10px;
+}
+
+
+.price{
+  text-align:right;
+}
+
+.price p{
+  color:black;
+  margin-top:10px;
+}
+
+.get-button button{
+  text-decoration:none;
+  border-radius:10px;
+  background:#00e5ff;
+  font-weight:bold;
+  border: 8px solid #00e5ff;
+  font-size:20px
+}
+
+.get-button button:hover{
+  color:red;
+  cursor:pointer;
+}
+
+.get-button{
+
+  position:relative;
+    left:10px;
+   top:80px;
+}
+
+#courses-students{
+  position:relative;
+  bottom:50px;
+  background:linear-gradient(to right,#FFA5A5,#FF7F7F)
+}
+
+.courses-students-image img{
+  width:800px;
+  height:375px;
+  position:relative;
+  top:50px;
+  left:230px;
+  align-items:center;
+}
+
+.courses-students-header h2{
+  text-align:center;
+  font-size:50px;
+  font-weight:bold;
+  color:#FFE4E4;
+  position:relative;
+  top:30px;
+}
+
+
+
+
+.courses-students-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  width:100%;
+  margin-top:80px;
+  margin-right:40px;
+}
+
+.courses-students-container a{
+  text-decoration:none;  
+  font-size:20px;
+
+}
+
+.courses-students-container p{
+  font-size:20px;
+}
+
+.courses-students-container div{
+  margin-top:20px;
+}
+
+.Biology-img img{
+  width:300px;
+  height:250px;
+}
+
+
+.Biology-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition: 0.5s ease-in-out;
+}
+
+.Biology-Card:hover{
+  transform:translateY(-12px);
+}
+
+.Chemistry-img img{
+  width:300px;
+  height:250px;
+}
+
+.Chemistry-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition: 0.5s ease-in-out;
+}
+
+.Chemistry-Card:hover{
+  transform:translateY(-12px);
+}
+
+.C-img img{
+  width:300px;
+  height:250px;
+}
+
+.C-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition: 0.5s ease-in-out;
+}
+
+.C-Card:hover{
+  transform:translateY(-12px);
+}
+
+.Cpp-img img{
+  width:300px;
+  height:250px;
+}
+
+.Cpp-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition:0.5s ease-in-out;
+}
+
+.Cpp-Card:hover{
+  transform:translateY(-12px);
+}
+
+.Csharp-img img{
+  width:300px;
+  height:250px;
+}
+
+.Csharp-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition:0.5s ease-in-out;
+}
+
+.Csharp-Card:hover{
+  transform: translateY(-12px);
+}
+
+.Java-img img{
+  width:300px;
+  height:250px;
+}
+
+.Java-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition:0.5s ease-in-out;
+}
+
+.Java-Card:hover{
+  transform:translateY(-12px);
+}
+
+.Further-Maths-img img{
+  width:300px;
+  height:250px;
+}
+
+.Further-Maths-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition:0.5s ease-in-out;
+}
+
+.Further-Maths-Card:hover{
+  transform:translateY(-12px);
+}
+.SQL-img img{
+  width:300px;
+  height:250px;
+}
+
+.SQL-Card{
+  width:300px;
+  height:90%;
+  background:linear-gradient(to right,#D2E3FF,#5879B3);
+  transition:0.5s ease-in-out;
+}
+
+.SQL-Card:hover{
+  transform:translateY(-12px);
+}
+
+#Questions{
+  position:relative;
+  bottom:49px;
+  background:radial-gradient(rgba(0,0,0,0.1),#EFFFFF)
+}
+
+.Questions-image img{
+  width:250px;
+  height:250px;
+  position:relative;
+  top:200px;
+  mix-blend-mode: multiply;
+}
+
+.Questions-header h1{
+  text-align:center;
+  font-size:50px;
+  font-weight:bold;
+  color:#00EFFF;
+  position:relative;
+  top:80px;
+}
+
+.Questions-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  width:100%;
+  position:relative;
+  top:140px;
+  left:70px;
+
+}
+
+.Questions-Asked table{
+  position:relative;
+  left:400px;
+  bottom:230px;
+}
+
+table{
+  width:80%;
+  border-collapse:collapse;
+  background:radial-gradient(rgba(0,0,0,0.1),#03A6B2);
+  border-radius:20px;
+}
+
+td{
+  padding:10px 5px;
+}
+
+.Questions-Asked h2{
+  font-size:40px;
+  font-weight:bold;
+  color:#074F54;
+}
+
+.Questions-Asked p{
+  font-size:28px;
+}
+
+
+#Praises{
+  position:relative;
+  bottom:50px;
+  background:linear-gradient(to right,#D7F1FF,#078CDA);
+  
+}
+
+.title-text h1{
+  text-align:center;
+  font-weight:bold;
+  font-size:40px;
+  color:#f2fdfc;
+  position:relative;
+  top:40px;
+}
+
+.Praises-row{
+  width:80%;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  flex-wrap: wrap;
+  margin-top:100px;
+}
+
+.Praises-col{
+  flex-basis:28%;
+  padding:10px;
+  margin-bottom:30px;
+  border-radius:5px;
+  box-shadow: 0 10px 20px 3px #252556;
+  cursor:pointer;
+  transition: transform 0.5s;
+  background-color:white;
+}
+
+.Praises-col p{
+  font-size:17px;
+}
+
+
+.user{
+  display:flex;
+  align-items:center;
+  margin:20px 0;
+}
+
+.user img{
+  width:40px;
+  margin-right:20px;
+  border-radius:3px;
+}
+
+.user-info .fa{
+  margin-left:10px;
+  font-size:20px;
+  color:#27c0ff;
+}
+
+.user-info small{
+color:#27c0ff;
+}
+
+.Praises-col:hover{
+  transform:translateY(-12px);
+}
+
+
+#footers{
+ 
+  
+}
+
+.footer{
+  background:#000;
+  color:white;
+  font-size:14px;
+  padding:60px 0 20px;
+  min-height:200px;
+}
+
+#image {
+  width:200px;
+  height:200px;  
+}
+
+.container-footer{
+  max-width:1300px;
+  margin:auto;
+  padding-left:25px;
+  padding-right:25px;
+}
+
+.footer p{
+  color:white
+}
+.footer h3{
+  color:#fff;
+  margin-bottom:20px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4
+{
+  min-width:250px;
+  margin-bottom:20px;
+}
+
+.row-footer{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  align-items: center;
+  width:100%;
+}
+
+.footer-col-2 img{
+  width:130px;
+  margin-bottom:20px;
+  background-color:white;
+  border-radius:50%;
+}
+
+.footer-col-1{
+  flex-basis:30%;
+}
+.footer-col-2{
+  flex:1;
+  text-align:center;
+}
+
+.footer-col-3,
+.footer-col-4{
+  flex-basis:12%;
+  text-align:center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.coding-header{
+  position:relative;
+  top:20px;
+  left:50px;
+}
+
+.coding-header h1{
+  font-size:40px;
+  font-weight:bold;
+  color:#0049f5
+  
+}
+
+#coding-subjects{
+  height:190vh;
+  background:linear-gradient(to right,#f2f0a6,#fff824);
+}
+.coding-subjects-container{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  width:75%;
+  position:relative;
+  bottom:525px;
+  left:320px;
+  
+}
+
+.coding-subjects-container a{
+  text-decoration:none;
+}
+
+.Web-Development-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#fbd583,#f08928);
+  transition: 0.5s ease-in-out;
+}
+
+.Web-Development-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+.Python-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#fbd583,#f08928);
+  transition: 0.5s ease-in-out;
+}
+
+.Python-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+.Cpp-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#fbd583,#f08928);
+  transition: 0.5s ease-in-out;
+}
+
+.Cpp-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+.Java-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#fbd583,#f08928);
+  transition: 0.5s ease-in-out;
+}
+
+.Java-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+.C-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#fbd583,#f08928);
+  transition: 0.5s ease-in-out;
+}
+
+.C-Code-Img img{
+  width:200px;
+  height:250px;
+}
+
+.Csharp-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#fbd583,#f08928);
+  margin-top:20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Csharp-Code-Img img{
+  width:200px;
+  height:250px;
+}
+
+.SQL-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#fbd583,#f08928);
+  margin-top:20px;
+  transition: 0.5s ease-in-out;
+}
+
+.SQL-Code-Img img{
+  width:200px;
+  height:250px;
+}
+
+.maths-header{
+  position:relative;
+  top:20px;
+  left:50px;
+}
+
+.maths-header h1{
+  font-size:40px;
+  font-weight:bold;
+  color:#8a5000
+
+}
+
+#maths-subjects{
+  height:120vh;
+  background:linear-gradient(to right,#f3ca59,#ffbb00);
+}
+.maths-subjects-container{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  width:50%;
+  position:relative;
+  bottom:500px;
+  left:400px;
+
+}
+
+.maths-subjects-container a{
+  text-decoration:none;
+}
+
+.Maths-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#f2f0a6,#fff824);
+  margin-top:20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Maths-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+.Further-Maths-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#f2f0a6,#fff824);
+  margin-top:20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Further-Maths-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+.science-header{
+  position:relative;
+  top:10px;
+  left:50px;
+}
+
+.science-header h1{
+  font-size:40px;
+  font-weight:bold;
+  color:#025601
+
+}
+
+#science-subjects{
+  height:110vh;
+  background:linear-gradient(to right,#5ff78d,#00ff4c);
+}
+.science-subjects-container{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  width:60%;
+  position:relative;
+  left:400px;
+  bottom:500px;
+
+}
+
+.science-subjects-container a{
+  text-decoration:none;
+}
+
+
+
+
+.Biology-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#a6f2af,#119707);
+  margin-top:20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Biology-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+.Chemistry-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#a6f2af,#119707)
+  ;
+  margin-top:20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Chemistry-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+.Physics-Card-Code{
+  width:200px;
+  height:450px;
+  background: linear-gradient(to right,#a6f2af,#119707);
+  margin-top:20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Physics-Img-Code img{
+  width:200px;
+  height:250px;
+}
+
+
+.Subjects-header h3{
+  font-size:25px;
+  font-weight:bold;
+}
+
+.Price-header h3{
+  font-size:25px;
+  font-weight:bold;
+}
+
+
+
+.input-checkbox{
+  width:30px;
+  height:30px;
+}
+
+.show-results-button button{
+  margin-top:50px;
+  margin-left:100px;
+  width:90px;
+  height:30px;
+  color:white;
+  font-weight:bold;
+  background-color:#0C9098;
+}
+
+.conditions-card{
+  list-style:none;
+  background-color:#0C9098;
+  width:300px;
+  height:565px;
+  color:white;
+  border: 5px solid white;
+  position:relative;
+  top:25px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Subjects-header{
+  position:relative;
+  bottom:30px;
+  left:10px;
+}
+
+.Subjects-header h3{
+  font-size:30px;
+}
+.Subjects-content{
+  position:relative;
+  bottom:100px;
+  margin-left:70px;
+}
+
+.Price-content{
+  margin-left:70px;
+}
+
+.Price-header{
+  position:relative;
+  bottom:30px;
+  left:30px;
+}
+
+.Price-header h3{
+  font-size:30px;
+}
+.conditions-content{
+  position:relative;
+  top:175px;
+}
+
+label{
+  font-size:20px;
+  margin-left:20px;
+}
